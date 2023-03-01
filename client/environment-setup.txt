@@ -1,0 +1,30 @@
+======Basic setup==========
+
+install node.js
+>node -v
+
+install next.js
+react framework for production
+production means fast secure and have solid infrastructure
+
+npm init -y
+it will take all the default options
+
+npm install next react react-dom
+
+Add this in package.json so that we can run to start out application 
+delete this
+"test": "echo \"Error: no test specified\" && exit 1"
+add this
+"scripts": {
+    "dev":"next dev",
+    "build":"next build",
+    "start":"next start"
+      },
+npm run =>start the app in development mode
+npm build=> to start it in production mode
+
+
+create file .gitignore
+add  "node_modules/"
+
