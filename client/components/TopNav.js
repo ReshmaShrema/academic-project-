@@ -19,8 +19,9 @@ const TopNav = ()=>{
                 </Link>
             </Item>
             <Item icon={<UserAddOutlined/>}>
-                <Link href="/login" legacyBehavior>
+                <Link href="/register" legacyBehavior>
                     <a>Register</a>
+                    {/* add legacyBehaviou to add anchor tag as child of link */}
                 </Link>
             </Item>
         </Menu>
