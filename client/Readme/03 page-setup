@@ -5,3 +5,4 @@ the app component runs before any pages gets ready for users to see
 
 antd is similar to material ui
 npm i bootstrap antd
+ npm i @ant-design/icons
