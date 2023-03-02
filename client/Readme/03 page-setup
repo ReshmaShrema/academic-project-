@@ -1,0 +1,7 @@
+create pages/_app.js
+next js uses the app component to initialize pages
+the app component runs before any pages gets ready for users to see
+
+
+antd is similar to material ui
+npm i bootstrap antd
